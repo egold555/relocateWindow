@@ -16,8 +16,9 @@ namespace relocateWindow
         [DllImport("user32.dll", CharSet = CharSet.Auto)]
         static extern IntPtr SendMessage(IntPtr hWnd, UInt32 Msg, IntPtr wParam, IntPtr lParam);
 
+
         Random random = new Random();
-        Boolean randomXY = true; //if true make window run away from mouse
+        Boolean randomXY = true; //if true make window run away from mouse!
         public Form1()
         {
             InitializeComponent();
